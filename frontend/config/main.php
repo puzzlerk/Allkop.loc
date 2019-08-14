@@ -79,7 +79,7 @@ return [
                 'ru' => 'Русский',
                 'en' => 'English',
             ],
-            'defaultCity' => '524901',    // Москва
+            'defaultCity' => '1501321',    // Курган
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'enableStrictParsing' => true,

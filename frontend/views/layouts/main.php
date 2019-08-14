@@ -47,9 +47,9 @@ AppAsset::register($this);
 </div>
 <footer class="footer">
     <div class="container">
-        <p class="pull-left"><i class="far fa-copyright"></i> <?= Html::a('phpnt.com', 'http://phpnt.com/', ['target' => '_blank']) ?> <?= date('Y') ?></p>
+        <p class="pull-left"><i class="far fa-copyright"></i> <?= Html::a('Allkop', 'http://Allkop.loc/', ['target' => '_blank']) ?> <?= date('Y') ?></p>
 
-        <p class="pull-right"><?= Yii::powered() ?></p>
+<!--        <p class="pull-right">--><?//= Yii::powered() ?><!--</p>-->
     </div>
 </footer>
 <?php Pjax::begin(['id' => 'pjaxModalUniversal']); ?><?php Pjax::end(); ?>

@@ -17,6 +17,7 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+
         /*'cache' => [
             'class' => 'yii\redis\Cache',
             'redis' => [
@@ -65,6 +66,10 @@ return [
                     'cachingDuration' => 60 * 60 * 2, // cache on 2 hours
                 ],
             ],
+        ],
+        'youTubeData' => [
+            'class' => \phpnt\youtube\components\YouTubeData::class,
+            'key' => 'AIzaSyBAk-zc4vmAmy732nU0SR7cw78RP_TYB6M',
         ],
     ],
 ];
